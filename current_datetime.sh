@@ -1,4 +1,6 @@
 #!/bin/bash
 # ceci fait affiché la date et l'heure actuel
-date ("+%Y-%m-%d %H:%M:%S")
+date "+%Y-%m-%d %H:%M:%S"
+chmod +x current_datetime.sh
+
 
