@@ -1,7 +1,8 @@
 #!/bin/bash
-# Ce script vérifie si le fichier existe
-echo "Donnez le nom du fichier"
+# Demande le nom du fichier souhaiter
+echo "Entrez le nom du fichier :"
 read filename
+# Vérifie si le fichier existe
 if [ -f "$filename" ]; then
 echo "Le fichier '$filename' existe."
 else
